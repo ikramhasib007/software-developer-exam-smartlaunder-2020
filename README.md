@@ -13,6 +13,7 @@ with credentials:username: "admin@admin.com", password: "admin"
 1. cd mern-test-nodejs
 2. npm install
 3. npm start
+
 on the navbar on upload you can create products and it has admin authetication,
 also the activate button has admin auth and the bid button has user auth
 
