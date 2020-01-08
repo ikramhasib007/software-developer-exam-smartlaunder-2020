@@ -1,0 +1,129 @@
+.navbar{
+    width: 73%;
+    max-width: 1000px;
+    z-index: 2;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    &__your_fundrisers{
+        width: 15%;
+        h1{
+            font-size: 16px;
+        }
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__link{
+        color: #00b964;
+        text-decoration: none;
+        position: relative;
+    }
+    &__link::after {
+        content: "";
+        width: 100%;
+        visibility: visible;
+        position: absolute;
+        left: 0;
+        height: 2px;
+        bottom: 15%;
+        background-color: #00b964;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.1s ease-in-out 0s;
+        transition: all 0.2s ease-in-out 0s;
+      }
+    &__link:hover:after {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+      }
+
+    // border: solid black 1px;
+    &__discover{
+        
+        width: 10%;
+        h1{
+            font-size: 16px;
+        }
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__category{
+        width: 10%;
+        h1{
+            font-size: 16px;
+        }
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title{
+        width: 40%;
+        text-align:center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__register{
+        width: 10%;
+        h1{
+            font-size: 16px;
+        }
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__login{
+        width: 10%;
+
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            font-size: 16px;
+        }
+    }
+    &__loged_user{
+        width: 10%;
+
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    &__start{
+        width: 10%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            font-size: 16px;
+        }
+    }
+}
+.navbar__wrap{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+}
+.active::after{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
