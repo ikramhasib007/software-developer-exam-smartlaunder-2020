@@ -1,5 +1,4 @@
 # software-developer-exam-smartlaunder-2020
-Software Developer Exam SmartLaunder 2020
 
 # for starting the backend:
 1. cd mern-test-nodejs
