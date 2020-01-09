@@ -10,7 +10,7 @@ after this the server will be on localhost:3004,and there will be generated admi
 with credentials:username: "admin@admin.com", password: "admin"
 
 # for starting the frontend
-1. cd mern-test-nodejs
+1. cd mern-test-react
 2. npm install
 3. npm start
 
